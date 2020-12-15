@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder | Jugendfestival</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style4.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favico/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <h1 class="nav-header"><a href="index.html">Jugend 2021</a></h1>
+        <nav>
+            <img src="img/hamb.png" alt="" id="hamb-ico">
+            <ul id="nav-bar">
+                <li><a href="index.html">Heim</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="bilettar.html">Bilettar</a></li>
+                <li><a href="bilder.html" class="active">Bilder</a></li>
+                <li><a href="teori.html">Teori</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div id="gallery-text" class="animated fadeInRight">
+            <h1>Bildegalleri</h1>
+        </div>
+
+        <div class="container" >
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/img-gallery/slide1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="img/img-gallery/slide2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="img/img-gallery/slide3.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="img/img-gallery/slide4.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="img/img-gallery/slide5.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="img/img-gallery/slide6.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide1.jpg" onclick="currentSlide(1)" alt="Jugendfestival">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide2.jpg" onclick="currentSlide(2)" alt="Jugendfestival">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide3.jpg" onclick="currentSlide(3)" alt="Jugendfestival">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide4.png" onclick="currentSlide(4)" alt="Jugendfestival">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide5.jpg" onclick="currentSlide(5)" alt="Jugendfestival">
+                </div>
+                <div class="column">
+                <img class="demo cursor" src="img/img-gallery/slide6.jpg" onclick="currentSlide(6)" alt="Jugendfestival">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
